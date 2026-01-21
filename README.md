@@ -2,13 +2,18 @@
 
 A clean, modern, single-page application built with React to showcase professional projects.
 
-## Features
+## ✨ Highlights
 
-- **Project Listing**: View a curated list of projects with descriptions.
-- **Real-time Search**: Filter projects dynamically as you type.
-- **Dynamic Project Addition**: Add new projects to the list using a clean, interactive form.
-- **Responsive Design**: Beautiful blue gradient background and modern card layout that works on all screen sizes.
-- **Simple State Management**: Built using standard React hooks (`useState` and `useEffect`) for maximum clarity and performance.
+- **Single Page Architecture**: No page reloads or complex routing; everything is managed seamlessly in a single view.
+- **Modern Aesthetic**: A premium blue gradient background with semi-transparent glassmorphism-inspired containers.
+- **Fast Search**: Instant filtering of the project list using optimized search logic.
+- **Code Icons**: Custom CSS-based project icons for a developer-centric look without external dependencies.
+
+## ⚠️ Known Limitations
+
+- **Local State Only**: Projects added via the form are stored in the application's local state. Refreshing the browser will reset the list to the default projects.
+- **No Persistence**: This version does not use a backend database or `localStorage` for persistent data storage.
+- **Basic Search**: The search functionality is currently limited to project title and description matching.
 
 ## Technology Stack
 
